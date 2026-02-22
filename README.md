@@ -292,6 +292,3 @@ kubectl -n monitoring get secret kps-grafana -o jsonpath="{.data.admin-password}
 
 ---
 
-
-- make a second README inside `kedro/background-removal/` specifically for pipeline usage
-```
