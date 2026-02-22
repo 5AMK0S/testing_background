@@ -1,6 +1,3 @@
-Here’s a complete `README.md` you can drop at repo root (tweak names/paths if you want). It matches what you built: Kedro training + self-hosted UI + batch API + Docker/K8s + monitoring.
-
-````md
 # AIAD Background Removal (Self-Host + Train + Batch API)
 
 A background remover built for developers who want to **train**, **evaluate**, and **self-host** their own background removal system end-to-end.
@@ -295,14 +292,6 @@ kubectl -n monitoring get secret kps-grafana -o jsonpath="{.data.admin-password}
 
 ---
 
-## License
 
-Internal / educational use (update as needed).
-
-```
-
-If you want, I can also:
-- add a **“Batch CLI”** section (e.g., `curl` loops / Python client)
-- include architecture diagram block (ASCII) to explain Kedro → model → UI → monitoring
 - make a second README inside `kedro/background-removal/` specifically for pipeline usage
 ```
